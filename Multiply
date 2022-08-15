@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  double num1, num2, product;
+  cout << "Please enter two numbers: ";
+
+  // stores two numbers
+  cin >> num1 >> num2;
+ 
+  // performs multiplication + saves stores the result
+  product = num1 * num2;  
+
+  cout << "Product = " << product;    
+    
+  return 0;
+}
