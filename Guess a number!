@@ -1,0 +1,16 @@
+// Guess a number!
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int num;
+    cout<<"Guess a Number: ";
+    cin>>num;
+    if(num>50 && num<200)
+        cout<<"\nGood! It's inside the range! ☺";
+    else
+        cout<<"\nOut of range!";
+    cout<<endl;
+    return 0;
+}
