@@ -1,0 +1,13 @@
+// Name entry
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    char str[30];
+    cout<<"Please Enter Your Name: ";
+    cin>>str;
+    cout<<"\nHello "<<str<<" , Welcome To The System!";
+    cout<<endl;
+    return 0;
+}
