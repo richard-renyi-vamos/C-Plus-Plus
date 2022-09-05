@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i, n, num, sum=0;
+    cout<<"Please tell me, how many numbers you want to enter ? ";
+    cin>>n;
+    cout<<"Please enter "<<n<<" numbers: ";
+    for(i=0; i<n; i++)
+    {
+        cin>>num;
+        sum = sum+num;
+    }
+    cout<<"\nThe SUM of all "<<n<<" numbers is "<<sum;
+    cout<<endl;
+    return 0;
+}
