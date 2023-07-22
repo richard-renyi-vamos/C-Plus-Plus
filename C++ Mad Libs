@@ -1,0 +1,27 @@
+#include <iostream>
+#include <string>
+
+int main() {
+    // Prompt the user for words
+    std::string noun, verb, adjective;
+    
+    std::cout << "Enter a noun: ";
+    std::cin >> noun;
+
+    std::cout << "Enter a verb: ";
+    std::cin >> verb;
+
+    std::cout << "Enter an adjective: ";
+    std::cin >> adjective;
+
+    // Generate the Mad Libs story
+    std::cout << "\nOnce upon a time, there was a " << adjective << " " << noun << ".\n";
+    std::cout << "This " << noun << " loved to " << verb << " all day long.\n";
+    std::cout << "One day, while " << verb << " in the park, the " << noun << " saw a magical unicorn!\n";
+    std::cout << "From that day on, the " << adjective << " " << noun << " and the unicorn became best friends.\n";
+
+    return 0;
+}
+
+// CREATED WITH THE HELP OF OPEN-AI CHAT GPT: https://chat.openai.com/chat    
+//  Online C++ compiler: https://www.programiz.com/cpp-programming/online-compiler/
